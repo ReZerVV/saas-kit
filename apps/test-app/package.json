@@ -1,0 +1,21 @@
+{
+    "name": "test-app",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@saas-kit/core": "*"
+    },
+    "devDependencies": {
+        "@saas-kit/eslint-config": "*",
+        "@saas-kit/typescript-config": "*",
+        "@types/node": "^20",
+        "ts-node": "^10.9.2",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "5.5.4",
+        "eslint": "^8.0.0"
+    }
+}
